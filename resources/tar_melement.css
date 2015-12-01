@@ -1,0 +1,152 @@
+.superselectbox {
+	/*width:700px;*/
+	background:#f9f9f9;
+	padding:5px;
+	margin:10px 0;
+	position:relative;
+	border:1px solid #ddd;
+	-moz-border-radius:5px;
+}
+.supertagbox {
+	/*width:700px;*/
+	background:#f9f9f9;
+	padding:5px;
+	margin:10px 0;
+	position:relative;
+	border:1px solid #ddd;
+	-moz-border-radius:5px;
+}
+
+.supertag {
+	/*width:209px;*/
+	clear:none;
+	background:#eee;
+	padding:0;
+	margin:5px 5px 10px;
+	border:1px solid #bbb;
+	font-size:.7em;
+	min-height:30px;
+	position:relative;
+	-moz-border-radius:3px;
+}
+.taglist .supertag, .imglist .supertag {
+	float:left;
+	margin:5px;
+}
+.imglist .supertag img {
+	display:block;
+	border:1px solid #777;
+	margin:5px 0 0;
+}
+.supertag.editing {
+	background-color:#fff;
+}
+.supertagval {
+	margin:0 50px 0 10px;
+	display:block;
+	line-height:20px;
+	padding:5px 0;
+}
+.imglist .supertagval {
+	margin:0 10px !important;
+	display:block;
+	line-height:20px;
+	padding:5px 0;
+	text-align:center;
+}
+
+.supertagbutton {
+	display:block;
+	position:absolute;
+	top:0;
+	background-color:#eee;
+	background-repeat:no-repeat;
+	text-align:center;
+	border-left:1px solid #ddd;
+	cursor:pointer;
+	height:100%;
+}
+.editing .supertagbutton {
+	background-color:#fff;
+}
+.supertagbutton.remove {
+	right:0;
+	width:20px;
+	background-image:url(remove.png);
+	background-position:-5px 50%;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomright:3px;
+}
+.supertagbutton.edit {
+	right:21px;
+	width:20px;
+	background-image:url(edit.png);
+	background-position:-5px 50%;
+}
+.editing .supertagbutton.remove {
+	background-position:-65px 50%;
+	border-color:#fff;
+}
+.editing .supertagbutton.edit {
+	background-position:-65px 50%;
+	border-color:#fff;
+}
+
+.supertagbutton:hover {
+	background-color:#fff;
+}
+.supertagbutton.remove:hover {
+	background-position:-35px 50%;
+}
+.supertagbutton.edit:hover {
+	background-position:-35px 50%;
+}
+
+.editing .supertagbutton.remove:hover {
+	background-position:-95px 50% !important;
+}
+.editing .supertagbutton.edit:hover {
+	background-position:-95px 50% !important;
+}
+
+
+.imglist .supertagbutton.remove {
+	height:20px !important;
+	border-bottom:1px solid #ddd;
+	-moz-border-radius-bottomright:0;
+	-moz-border-radius-bottomleft:3px;
+}
+
+.addbox {
+	background:#ddd;
+	margin:5px -5px -5px -5px;
+	padding:10px 15px;
+	text-align:center;
+	font-size:.8em;
+	position:relative;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+}
+.bulletlist .addbox {
+	margin-top:10px;
+}
+
+.addbox select, .addbox input {
+	padding:3px;
+}
+
+.addtext {
+	width:400px;
+}
+
+#imglistpreview {
+	position:absolute;
+	right:0;
+	top:0;
+	background:#333;
+	padding:10px;
+}
+#imglistpreview img {
+	display:block;
+	width:60px;
+}
